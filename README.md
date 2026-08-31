@@ -1,19 +1,11 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ADD8,100:0A2540&height=180&section=header&text=Yashasvi%20Singh%20Rathore&fontColor=ffffff&fontSize=42&fontAlignY=32&desc=Backend%20Engineer%20%C2%B7%20Go%20%C2%B7%20PostgreSQL%20%C2%B7%20Redis&descAlignY=54&descSize=16" alt="Yashasvi Singh Rathore — Backend Engineer" width="100%" />
+<img src="./assets/header.svg" alt="Yashasvi Singh Rathore — Backend Engineer · Go · PostgreSQL · Redis" width="100%" />
 
 <div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3200&pause=900&color=00ADD8&center=true&vCenter=true&width=680&lines=REST+and+WebSocket+services+in+Go;Cache-aside+leaderboards+on+Redis+and+PostgreSQL;Systems+that+stay+correct+under+concurrency" alt="REST and WebSocket services in Go" />
-
-<br><br>
 
 <a href="https://yashasvidev.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/yashasvi-rathore-412861190/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://codeforces.com/profile/yashasvi_xvi"><img src="https://img.shields.io/badge/Codeforces-Specialist%201408-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces — Specialist, max rating 1408" /></a>
-<a href="https://github.com/yashasvi16"><img src="https://img.shields.io/badge/Prayagraj,%20India-2D333B?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Prayagraj, India" /></a>
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=yashasvi16&label=Profile%20views&color=00ADD8&style=flat-square" alt="Profile views" />
+<a href="https://github.com/yashasvi16"><img src="https://img.shields.io/github/followers/yashasvi16?style=for-the-badge&logo=github&label=Follow&labelColor=0A0A0A&color=00ADD8" alt="GitHub followers" /></a>
 
 </div>
 
@@ -21,43 +13,65 @@
 
 ## 🧭 About
 
+<table>
+<tr>
+<td width="56%" valign="top">
+
 ```go
 package main
 
 type Engineer struct {
-    Name     string
-    Focus    []string
-    Writes   string
-    CaresFor string
+    Name  string
+    Stack []string
+    Likes string
 }
 
-func main() {
-    _ = Engineer{
-        Name:     "Yashasvi Singh Rathore",
-        Focus:    []string{"REST APIs", "WebSocket services", "caching", "concurrency"},
-        Writes:   "Go, mostly",
-        CaresFor: "state that stays correct when everything runs at once",
-    }
+func (e Engineer) Ship(ctx context.Context) error {
+    // the interesting part is never the handler.
+    // it's what happens when two of them run at once.
+    return e.KeepStateCorrect(ctx)
+}
+
+var me = Engineer{
+    Name:  "Yashasvi Singh Rathore",
+    Stack: []string{"Go", "PostgreSQL", "Redis", "Docker"},
+    Likes: "concurrency, caches, and things that fail loudly",
 }
 ```
 
-- 🛠️ &nbsp;Backend engineer working in Go on REST and WebSocket services over PostgreSQL and Redis
-- 🧵 &nbsp;Most interested in the hard part: keeping state correct under concurrency
-- 🎮 &nbsp;Came in through real-time multiplayer games, which is where the concurrency habit started
-- 🏅 &nbsp;Competitive programmer in C++ — Specialist on Codeforces, max rating 1408
+</td>
+<td width="44%" valign="top">
+
+<table>
+<tr><td>⚡</td><td><b>Focus</b></td><td>Concurrency · caching · real-time</td></tr>
+<tr><td>🔨</td><td><b>Daily</b></td><td>Go · PostgreSQL · Redis · Docker</td></tr>
+<tr><td>🚧</td><td><b>Building</b></td><td><code>mini-sidekiq</code>, a job queue</td></tr>
+<tr><td>🎮</td><td><b>Came from</b></td><td>Unity multiplayer game dev</td></tr>
+<tr><td>🏅</td><td><b>Codeforces</b></td><td>Specialist · max 1408</td></tr>
+<tr><td>📍</td><td><b>Based in</b></td><td>Prayagraj, India</td></tr>
+</table>
+
+<div align="center">
+<img src="https://img.shields.io/badge/open%20to-backend%20roles-00ADD8?style=flat-square&labelColor=0d1117" alt="Open to backend roles" />
+</div>
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🚀 Backend work
 
-<div align="center">
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/yashasvi16/gamevault">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yashasvi16&repo=gamevault&theme=transparent&hide_border=true&title_color=00ADD8&text_color=8b949e&icon_color=00ADD8" alt="GameVault" />
-</a>
+### [GameVault](https://github.com/yashasvi16/gamevault)
+
+<a href="https://github.com/yashasvi16/gamevault/stargazers"><img src="https://img.shields.io/github/stars/yashasvi16/gamevault?style=flat-square&logo=github&labelColor=0d1117&color=00ADD8" alt="Stars" /></a>
+<img src="https://img.shields.io/github/last-commit/yashasvi16/gamevault?style=flat-square&labelColor=0d1117&color=8b949e" alt="Last commit" />
+<img src="https://img.shields.io/github/languages/top/yashasvi16/gamevault?style=flat-square&labelColor=0d1117&color=00ADD8" alt="Top language" />
 
 Competitive gaming stats API. JWT (JSON Web Token) auth, transactional match recording, Redis cache-aside leaderboards pushed live over WebSocket, and graceful degradation when the cache is down. One-command Docker setup.
 
@@ -69,11 +83,13 @@ Competitive gaming stats API. JWT (JSON Web Token) auth, transactional match rec
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/yashasvi16/Jetstrike-Arena-Golang">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yashasvi16&repo=Jetstrike-Arena-Golang&theme=transparent&hide_border=true&title_color=00ADD8&text_color=8b949e&icon_color=00ADD8" alt="Jetstrike Arena — Server" />
-</a>
+### [Jetstrike Arena — Server](https://github.com/yashasvi16/Jetstrike-Arena-Golang)
 
-Authoritative game server for a 2D multiplayer shooter: matchmaking, room state, and authoritative client sync. <!-- TODO: name the transport once you confirm it — "…client sync over WebSocket" reads much stronger than "authoritative client sync". -->
+<a href="https://github.com/yashasvi16/Jetstrike-Arena-Golang/stargazers"><img src="https://img.shields.io/github/stars/yashasvi16/Jetstrike-Arena-Golang?style=flat-square&logo=github&labelColor=0d1117&color=00ADD8" alt="Stars" /></a>
+<img src="https://img.shields.io/github/last-commit/yashasvi16/Jetstrike-Arena-Golang?style=flat-square&labelColor=0d1117&color=8b949e" alt="Last commit" />
+<img src="https://img.shields.io/github/languages/top/yashasvi16/Jetstrike-Arena-Golang?style=flat-square&labelColor=0d1117&color=00ADD8" alt="Top language" />
+
+Authoritative game server for a 2D multiplayer shooter: matchmaking, room state, and authoritative client sync. <!-- TODO: name the transport once you confirm it, and fix the badge below if it isn't WebSocket. -->
 
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
 <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSocket" />
@@ -81,10 +97,9 @@ Authoritative game server for a 2D multiplayer shooter: matchmaking, room state,
 </td>
 </tr>
 </table>
-</div>
 
 > **🚧 Building now — `mini-sidekiq`** &nbsp;·&nbsp; a Redis-backed background job queue in Go: enqueue, worker pool, retries with exponential backoff, dead-letter handling.
-> <!-- TODO: rewrite this to match what you actually shipped, then promote it into the card grid above with a pin card and a link. -->
+> <!-- TODO: rewrite to match what you actually shipped, then promote it into the grid above. -->
 
 ---
 
@@ -99,6 +114,9 @@ Authoritative game server for a 2D multiplayer shooter: matchmaking, room state,
 - [Jetstrike Arena](https://github.com/yashasvi16/Jetstrike-Arena) — 2D shooter client on Photon Fusion 2
 - [Egg Bounce](https://github.com/yashasvi16/Egg-Bounce-Multiplayer) — multiplayer party game on Netcode for GameObjects
 
+<img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" alt="Unity" />
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
+
 </td>
 <td width="45%" valign="top">
 
@@ -106,6 +124,9 @@ Authoritative game server for a 2D multiplayer shooter: matchmaking, room state,
 
 - [Crowd density estimation](https://github.com/yashasvi16/Crowd-Density-Estimation-and-Crowd-Behavior-Analysis) — M-CNN (multi-column convolutional neural network) and C3D (3D convolutional network)
 - [Abandoned object detection](https://github.com/yashasvi16/Real-Time-Surveillance-abandoned-object-detection-) — real-time surveillance with OpenCV
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
 
 </td>
 </tr>
@@ -115,53 +136,41 @@ Authoritative game server for a 2D multiplayer shooter: matchmaking, room state,
 
 ## 🧰 Stack
 
-<div align="center">
-
 <table>
-  <tr>
-    <td align="right"><b>Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=go,cpp,cs,python&theme=dark" alt="Go, C++, C#, Python" /></td>
-  </tr>
-  <tr>
-    <td align="right"><b>Data</b></td>
-    <td><img src="https://skillicons.dev/icons?i=postgres,redis&theme=dark" alt="PostgreSQL, Redis" /></td>
-  </tr>
-  <tr>
-    <td align="right"><b>Infra &amp; tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=docker,git,github,linux&theme=dark" alt="Docker, Git, GitHub, Linux" /></td>
-  </tr>
-  <tr>
-    <td align="right"><b>Game dev</b></td>
-    <td><img src="https://skillicons.dev/icons?i=unity&theme=dark" alt="Unity" /></td>
-  </tr>
+<tr>
+<td align="right"><b>Languages</b></td>
+<td>
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+</td>
+</tr>
+<tr>
+<td align="right"><b>Data</b></td>
+<td>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+</td>
+</tr>
+<tr>
+<td align="right"><b>Infra &amp; tools</b></td>
+<td>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+</td>
+</tr>
+<tr>
+<td align="right"><b>Game dev</b></td>
+<td>
+<img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
+<img src="https://img.shields.io/badge/Photon%20Fusion%202-1B1B1B?style=for-the-badge&logoColor=white" alt="Photon Fusion 2" />
+</td>
+</tr>
 </table>
 
-<!-- TODO: add `githubactions` to the Infra row once GameVault has a CI (continuous integration) workflow. -->
-
-</div>
-
----
-
-## 📊 GitHub
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=yashasvi16&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent&title_color=00ADD8&icon_color=00ADD8&text_color=8b949e" alt="GitHub stats" height="170" />
-<img src="https://github-readme-streak-stats.demolab.com/?user=yashasvi16&hide_border=true&background=00000000&stroke=8b949e&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8&sideLabels=8b949e&dates=8b949e&currStreakNum=8b949e&sideNums=8b949e" alt="Contribution streak" height="170" />
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashasvi16&layout=compact&hide_border=true&langs_count=6&hide=shaderlab,hlsl,jupyter%20notebook,html,css&theme=transparent&title_color=00ADD8&text_color=8b949e" alt="Most used languages" height="150" />
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yashasvi16&custom_title=Contribution%20activity&bg_color=00000000&color=8b949e&title_color=00ADD8&line=00ADD8&point=00ADD8&area=true&hide_border=true" alt="Contribution activity over the last year" width="98%" />
-
-<br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=yashasvi16&theme=algolia&no-frame=true&column=6&margin-w=8&margin-h=8" alt="GitHub trophies" />
-
-</div>
+<!-- TODO: add a GitHub Actions badge to the Infra row once GameVault has a CI (continuous integration) workflow. -->
 
 ---
 
@@ -176,8 +185,18 @@ Authoritative game server for a 2D multiplayer shooter: matchmaking, room state,
 
 </div>
 
-<!-- The snake images 404 until the workflow in .github/workflows/snake.yml runs once.
-     Push the workflow, then trigger it manually from the Actions tab. -->
+<!-- 404s until .github/workflows/snake.yml runs once. Push it, then trigger it from the Actions tab. -->
+
+<!-- ─────────────────────────────────────────────────────────────
+     OPTIONAL: stats cards from community services on Vercel.
+     Uncomment only if these load for you in a browser first.
+     They were removed because they were rendering as broken images.
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=yashasvi16&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent&title_color=00ADD8&icon_color=00ADD8&text_color=8b949e" alt="GitHub stats" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashasvi16&layout=compact&hide_border=true&langs_count=6&hide=shaderlab,hlsl,jupyter%20notebook,html,css&theme=transparent&title_color=00ADD8&text_color=8b949e" alt="Most used languages" height="170" />
+</div>
+     ───────────────────────────────────────────────────────────── -->
 
 ---
 
@@ -187,9 +206,11 @@ Authoritative game server for a 2D multiplayer shooter: matchmaking, room state,
 
 <a href="https://www.linkedin.com/in/yashasvi-rathore-412861190/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://yashasvidev.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Portfolio" /></a>
-<!-- TODO: add a mail badge once you decide which address to make public:
+<!-- TODO: add a mail badge once you pick a public address:
 <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> -->
 
-</div>
+<br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A2540,100:00ADD8&height=120&section=footer" alt="" width="100%" />
+<sub><i>Thanks for scrolling all the way down.</i></sub>
+
+</div>
