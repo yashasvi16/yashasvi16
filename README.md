@@ -1,10 +1,21 @@
+<div align="center">
+
 # Yashasvi Singh Rathore
 
-Backend engineer. I work mostly in Go — REST and WebSocket services on PostgreSQL and Redis, and systems where state has to stay correct under concurrency.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3200&pause=900&color=00ADD8&center=true&vCenter=true&width=640&lines=Backend+engineer;Go+%C2%B7+PostgreSQL+%C2%B7+Redis;Systems+that+stay+correct+under+concurrency" alt="Backend engineer — Go, PostgreSQL, Redis" />
 
-Prayagraj, India · [Portfolio](https://yashasvidev.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/yashasvi-rathore-412861190/)
+<br>
+
+<a href="https://yashasvidev.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/yashasvi-rathore-412861190/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://codeforces.com/profile/yashasvi_xvi"><img src="https://img.shields.io/badge/Codeforces-Specialist%201408-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces — Specialist, max rating 1408" /></a>
+<img src="https://img.shields.io/badge/Prayagraj,%20India-2D333B?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Prayagraj, India" />
+
+</div>
 
 ---
+
+I work mostly in Go — REST and WebSocket services on PostgreSQL and Redis, and systems where state has to stay correct under concurrency.
 
 ### Backend work
 
@@ -22,129 +33,54 @@ Real-time multiplayer clients in Unity — [Jetstrike Arena](https://github.com/
 
 Computer vision in Python — [crowd density estimation](https://github.com/yashasvi16/Crowd-Density-Estimation-and-Crowd-Behavior-Analysis) using M-CNN (multi-column convolutional neural network) and C3D (3D convolutional network), and [abandoned object detection](https://github.com/yashasvi16/Real-Time-Surveillance-abandoned-object-detection-) with OpenCV.
 
-Competitive programming in C++ on [Codeforces](https://codeforces.com/profile/yashasvi_xvi) — Specialist, max rating 1408.
-
 ### Stack
 
-- **Languages** — Go · C++ · C# · Python
-- **Data** — PostgreSQL · Redis
-- **Infra** — Docker · Docker Compose
-<!-- TODO: add "GitHub Actions" to Infra once GameVault has a CI workflow. -->
+<table>
+  <tr>
+    <td><b>Languages</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+      <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Data</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Infra</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Compose" />
+    </td>
+  </tr>
+</table>
 
----
+<!-- TODO: add a GitHub Actions badge to Infra once GameVault has a CI (continuous integration) workflow. -->
 
-### 🎮 Stay a minute and play
+### GitHub
 
-GitHub strips JavaScript out of READMEs, so these are built from plain `<details>` toggles. No install, no tab switch — just click.
+<div align="center">
 
-<details>
-<summary><b>🔔 The 3 A.M. Page</b> — a 60-second incident, one wrong turn ends it</summary>
-
-<br>
-
-Your phone buzzes. The API is throwing 500s. Latency graph looks like a cliff face. Pick one:
-
-<details>
-<summary>👉 Roll back the deploy that went out at midnight</summary>
-
-<br>
-
-Errors stop. You start typing "resolved" into the channel — and 20 minutes later the pager goes off again. The deploy wasn't it.
-
-<details>
-<summary>👉 Fine. Actually read the logs this time</summary>
-
-<br>
-
-`dial tcp 10.0.1.7:6379: connection refused`, roughly nine thousand times. Redis is gone and every request is falling straight through to Postgres.
-
-<details>
-<summary>👉 Flip on graceful degradation and serve stale leaderboards</summary>
-
-<br>
-
-**🏆 YOU WIN.** Postgres stops drowning, p99 drops back under 200 ms, and you bring Redis up warm at a civilized hour. You wrote that fallback path six months ago and nobody noticed. That's the job.
-
-</details>
-
-<details>
-<summary>👉 Restart Redis right now, cold</summary>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yashasvi16&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=github_dark&icon_color=00ADD8&title_color=00ADD8" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yashasvi16&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0969DA&icon_color=0969DA" alt="GitHub stats" height="165" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yashasvi16&layout=compact&hide_border=true&langs_count=6&hide=shaderlab,hlsl,jupyter%20notebook,html,css&theme=github_dark&title_color=00ADD8" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashasvi16&layout=compact&hide_border=true&langs_count=6&hide=shaderlab,hlsl,jupyter%20notebook,html,css&title_color=0969DA" alt="Most used languages" height="165" />
+</picture>
 
 <br>
 
-**💀 GAME OVER.** Empty cache, every client retries at once, thundering herd, Postgres tips over for real. Now you have two outages. Scroll up, take the other door.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=yashasvi16&theme=github-compact&hide_border=true&area=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashasvi16&theme=github-light&hide_border=true&area=true" alt="Contribution activity over the last year" />
+</picture>
 
-</details>
-
-</details>
-
-</details>
-
-<details>
-<summary>👉 Restart all the app servers, it usually works</summary>
-
-<br>
-
-It works! For ninety glorious seconds. Then it doesn't.
-
-**💀 GAME OVER** — you rebooted the symptom. Scroll up and read the logs instead.
-
-</details>
-
-</details>
-
-<br>
-
-<details>
-<summary><b>🧠 Guess the Output</b> — three Go snippets, no compiler allowed</summary>
-
-<br>
-
-**1.**
-
-```go
-var m map[string]int
-fmt.Println(m["hello"])
-m["hello"] = 1
-```
-
-<details>
-<summary>Answer</summary>
-
-Prints `0`, then panics: `assignment to entry in nil map`. Reading a nil map is fine and hands back the zero value. Writing to one is not.
-
-</details>
-
-**2.**
-
-```go
-a := []int{1, 2, 3}
-b := a[:2]
-b = append(b, 99)
-fmt.Println(a)
-```
-
-<details>
-<summary>Answer</summary>
-
-`[1 2 99]`. `b` has length 2 but capacity 3, so `append` reuses the backing array and quietly overwrites `a[2]`. This one has eaten real production data.
-
-</details>
-
-**3.**
-
-```go
-func f() (result int) {
-    defer func() { result *= 2 }()
-    return 5
-}
-```
-
-<details>
-<summary>Answer</summary>
-
-`10`. `return 5` assigns to the named return value first, *then* runs the deferred function, which gets to edit it on the way out.
-
-</details>
-
-</details>
+</div>
