@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 452" width="1200" height="452" role="img" aria-label="GitHub activity dashboard for yashasvi16: 0 commits, 2 active days in the last 30 days">
+<defs>
+<linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7CE3FF"/><stop offset="100%" stop-color="#0d5c73"/></linearGradient>
+</defs>
+<style>.m{font-family:"SFMono-Regular","Fira Code",Consolas,monospace}.s{font-family:"Segoe UI",Helvetica,Arial,sans-serif}.led{animation:led 2.4s ease-in-out infinite}@keyframes led{0%,100%{opacity:.45}50%{opacity:1}}</style>
+<rect width="1200" height="452" rx="14" fill="#0d1117" stroke="#21262d"/>
+<rect x="1" y="1" width="1198" height="52" rx="13" fill="#11161d"/>
+<rect x="1" y="38" width="1198" height="15" fill="#11161d"/>
+<line x1="0" y1="53" x2="1200" y2="53" stroke="#21262d"/>
+<circle class="led" cx="30" cy="27" r="5" fill="#3fb950"/>
+<text class="m" x="46" y="32" font-size="14" fill="#c9d1d9">yashasvi16<tspan fill="#6e7681"> / activity</tspan></text>
+<text class="m" x="1176" y="32" font-size="12" fill="#6e7681" text-anchor="end">window: last 30d &#183; refreshed daily</text>
+<rect x="24" y="70" width="279" height="76" rx="10" fill="#11161d" stroke="#21262d"/>
+<rect x="24" y="70" width="3" height="76" rx="1.5" fill="#00ADD8"/>
+<text class="m" x="42" y="94" font-size="10.5" fill="#6e7681" letter-spacing="1.1">COMMITS</text>
+<text class="s" x="42" y="124" font-size="26" font-weight="700" fill="#00ADD8">0</text>
+<text class="m" x="42" y="138" font-size="10" fill="#6e7681">pushed, 90d public</text>
+<rect x="315" y="70" width="279" height="76" rx="10" fill="#11161d" stroke="#21262d"/>
+<rect x="315" y="70" width="3" height="76" rx="1.5" fill="#00ADD8"/>
+<text class="m" x="333" y="94" font-size="10.5" fill="#6e7681" letter-spacing="1.1">ACTIVE DAYS</text>
+<text class="s" x="333" y="124" font-size="26" font-weight="700" fill="#00ADD8">2/30</text>
+<text class="m" x="333" y="138" font-size="10" fill="#6e7681">days with a push</text>
+<rect x="606" y="70" width="279" height="76" rx="10" fill="#11161d" stroke="#21262d"/>
+<rect x="606" y="70" width="3" height="76" rx="1.5" fill="#00ADD8"/>
+<text class="m" x="624" y="94" font-size="10.5" fill="#6e7681" letter-spacing="1.1">BEST STREAK</text>
+<text class="s" x="624" y="124" font-size="26" font-weight="700" fill="#00ADD8">1d</text>
+<text class="m" x="624" y="138" font-size="10" fill="#6e7681">consecutive</text>
+<rect x="897" y="70" width="279" height="76" rx="10" fill="#11161d" stroke="#21262d"/>
+<rect x="897" y="70" width="3" height="76" rx="1.5" fill="#00ADD8"/>
+<text class="m" x="915" y="94" font-size="10.5" fill="#6e7681" letter-spacing="1.1">REPOS TOUCHED</text>
+<text class="s" x="915" y="124" font-size="26" font-weight="700" fill="#00ADD8">2</text>
+<text class="m" x="915" y="138" font-size="10" fill="#6e7681">in this window</text>
+<rect x="24" y="162" width="740" height="130" rx="10" fill="#11161d" stroke="#21262d"/>
+<text class="m" x="42" y="184" font-size="10.5" fill="#6e7681" letter-spacing="1.1">COMMIT THROUGHPUT</text>
+<text class="m" x="746" y="184" font-size="10.5" fill="#6e7681" text-anchor="end">peak 2/day</text>
+<rect x="46.0" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.00s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.00s" fill="freeze"/></rect>
+<rect x="69.2" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.02s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.02s" fill="freeze"/></rect>
+<rect x="92.4" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.04s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.04s" fill="freeze"/></rect>
+<rect x="115.6" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.07s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.07s" fill="freeze"/></rect>
+<rect x="138.8" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.09s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.09s" fill="freeze"/></rect>
+<rect x="162.0" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.11s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.11s" fill="freeze"/></rect>
+<rect x="185.2" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.13s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.13s" fill="freeze"/></rect>
+<rect x="208.4" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.15s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.15s" fill="freeze"/></rect>
+<rect x="231.6" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.18s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.18s" fill="freeze"/></rect>
+<rect x="254.8" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.20s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.20s" fill="freeze"/></rect>
+<rect x="278.0" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.22s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.22s" fill="freeze"/></rect>
+<rect x="301.2" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.24s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.24s" fill="freeze"/></rect>
+<rect x="324.4" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.26s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.26s" fill="freeze"/></rect>
+<rect x="347.6" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.29s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.29s" fill="freeze"/></rect>
+<rect x="370.8" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.31s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.31s" fill="freeze"/></rect>
+<rect x="394.0" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.33s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.33s" fill="freeze"/></rect>
+<rect x="417.2" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.35s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.35s" fill="freeze"/></rect>
+<rect x="440.4" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.37s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.37s" fill="freeze"/></rect>
+<rect x="463.6" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.40s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.40s" fill="freeze"/></rect>
+<rect x="486.8" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.42s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.42s" fill="freeze"/></rect>
+<rect x="510.0" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.44s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.44s" fill="freeze"/></rect>
+<rect x="533.2" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.46s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.46s" fill="freeze"/></rect>
+<rect x="556.4" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.48s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.48s" fill="freeze"/></rect>
+<rect x="579.6" y="233.0" width="17.2" height="33.0" rx="2" fill="url(#bar)"><animate attributeName="height" from="0" to="33.0" dur="0.7s" begin="0.51s" fill="freeze"/><animate attributeName="y" from="266" to="233.0" dur="0.7s" begin="0.51s" fill="freeze"/></rect>
+<rect x="602.8" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.53s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.53s" fill="freeze"/></rect>
+<rect x="626.0" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.55s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.55s" fill="freeze"/></rect>
+<rect x="649.2" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.57s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.57s" fill="freeze"/></rect>
+<rect x="672.4" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.59s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.59s" fill="freeze"/></rect>
+<rect x="695.6" y="264.0" width="17.2" height="2.0" rx="2" fill="#21262d"><animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.62s" fill="freeze"/><animate attributeName="y" from="266" to="264.0" dur="0.7s" begin="0.62s" fill="freeze"/></rect>
+<rect x="718.8" y="200.0" width="17.2" height="66.0" rx="2" fill="url(#bar)"><animate attributeName="height" from="0" to="66.0" dur="0.7s" begin="0.64s" fill="freeze"/><animate attributeName="y" from="266" to="200.0" dur="0.7s" begin="0.64s" fill="freeze"/></rect>
+<line x1="44" y1="270" x2="744" y2="270" stroke="#21262d"/>
+<text class="m" x="46" y="284" font-size="9.5" fill="#6e7681">Aug 02</text>
+<text class="m" x="742" y="284" font-size="9.5" fill="#6e7681" text-anchor="end">today</text>
+<rect x="776" y="162" width="400" height="130" rx="10" fill="#11161d" stroke="#21262d"/>
+<text class="m" x="794" y="184" font-size="10.5" fill="#6e7681" letter-spacing="1.1">TOP SERVICES</text>
+<text class="m" x="794" y="208" font-size="11" fill="#c9d1d9">gamevault</text>
+<rect x="972" y="197" width="168" height="10" rx="5" fill="#0d1117"/>
+<rect x="972" y="197" width="168.0" height="10" rx="5" fill="#00ADD8" opacity="0.85"><animate attributeName="width" from="0" to="168.0" dur="0.8s" begin="0.30s" fill="freeze"/></rect>
+<text class="m" x="1158" y="208" font-size="10.5" fill="#6e7681" text-anchor="end">12</text>
+<text class="m" x="794" y="229" font-size="11" fill="#c9d1d9">mini-sidekiq</text>
+<rect x="972" y="218" width="168" height="10" rx="5" fill="#0d1117"/>
+<rect x="972" y="218" width="14.0" height="10" rx="5" fill="#00ADD8" opacity="0.85"><animate attributeName="width" from="0" to="14.0" dur="0.8s" begin="0.40s" fill="freeze"/></rect>
+<text class="m" x="1158" y="229" font-size="10.5" fill="#6e7681" text-anchor="end">1</text>
+<rect x="24" y="306" width="1152" height="130" rx="10" fill="#11161d" stroke="#21262d"/>
+<text class="m" x="42" y="328" font-size="10.5" fill="#6e7681" letter-spacing="1.1">$ tail -f ~/activity.log</text>
+<g>
+<text class="m" x="42" y="350" font-size="11.5" fill="#6e7681">08-31 10:38</text>
+<text class="m" x="136" y="350" font-size="11.5" fill="#3fb950" font-weight="600">CREATE</text>
+<text class="m" x="196" y="350" font-size="11.5" fill="#c9d1d9">repo=<tspan fill="#00ADD8">url-shortner-go</tspan></text>
+<text class="m" x="424" y="350" font-size="11.5" fill="#6e7681"></text>
+<text class="m" x="524" y="350" font-size="11.5" fill="#c9d1d9" opacity="0.75">msg="create"</text>
+</g>
+<g>
+<text class="m" x="42" y="367" font-size="11.5" fill="#6e7681">08-31 10:41</text>
+<text class="m" x="136" y="367" font-size="11.5" fill="#3fb950" font-weight="600">CREATE</text>
+<text class="m" x="196" y="367" font-size="11.5" fill="#c9d1d9">repo=<tspan fill="#00ADD8">rate-limiter-go</tspan></text>
+<text class="m" x="424" y="367" font-size="11.5" fill="#6e7681"></text>
+<text class="m" x="524" y="367" font-size="11.5" fill="#c9d1d9" opacity="0.75">msg="create"</text>
+</g>
+<g>
+<text class="m" x="42" y="384" font-size="11.5" fill="#6e7681">08-25 18:24</text>
+<text class="m" x="136" y="384" font-size="11.5" fill="#00ADD8" font-weight="600">PUSH</text>
+<text class="m" x="196" y="384" font-size="11.5" fill="#c9d1d9">repo=<tspan fill="#00ADD8">mini-sidekiq</tspan></text>
+<text class="m" x="424" y="384" font-size="11.5" fill="#6e7681"></text>
+<text class="m" x="524" y="384" font-size="11.5" fill="#c9d1d9" opacity="0.75">msg="push"</text>
+</g>
+<g>
+<text class="m" x="42" y="401" font-size="11.5" fill="#6e7681">08-25 17:58</text>
+<text class="m" x="136" y="401" font-size="11.5" fill="#3fb950" font-weight="600">CREATE</text>
+<text class="m" x="196" y="401" font-size="11.5" fill="#c9d1d9">repo=<tspan fill="#00ADD8">mini-sidekiq</tspan></text>
+<text class="m" x="424" y="401" font-size="11.5" fill="#6e7681"></text>
+<text class="m" x="524" y="401" font-size="11.5" fill="#c9d1d9" opacity="0.75">msg="create"</text>
+</g>
+<g>
+<text class="m" x="42" y="418" font-size="11.5" fill="#6e7681">08-25 15:21</text>
+<text class="m" x="136" y="418" font-size="11.5" fill="#00ADD8" font-weight="600">PUSH</text>
+<text class="m" x="196" y="418" font-size="11.5" fill="#c9d1d9">repo=<tspan fill="#00ADD8">gamevault</tspan></text>
+<text class="m" x="424" y="418" font-size="11.5" fill="#6e7681"></text>
+<text class="m" x="524" y="418" font-size="11.5" fill="#c9d1d9" opacity="0.75">msg="push"</text>
+</g>
+<text class="m" x="1176" y="440" font-size="9.5" fill="#6e7681" text-anchor="end">generated 2026-08-31 12:35 UTC</text>
+</svg>
