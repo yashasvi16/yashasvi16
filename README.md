@@ -200,15 +200,6 @@ Authoritative game server for a 2D multiplayer shooter: matchmaking, room state,
 
 <div align="center">
 
-### 💬 Reach me
-
-<a href="https://www.linkedin.com/in/yashasvi-rathore-412861190/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://yashasvidev.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Portfolio" /></a>
-<!-- TODO: add a mail badge once you pick a public address:
-<a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> -->
-
-<br><br>
-
 <sub><i>Thanks for scrolling all the way down.</i></sub>
 
 </div>
