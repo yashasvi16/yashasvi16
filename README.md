@@ -174,18 +174,16 @@ Authoritative game server for a 2D multiplayer shooter: matchmaking, room state,
 
 ---
 
-## 🐍 Contribution snake
+## 📟 Live activity
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yashasvi16/yashasvi16/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/yashasvi16/yashasvi16/output/snake.svg" alt="Snake eating my contribution graph" width="98%" />
-</picture>
+<img src="./assets/activity.svg" alt="Activity dashboard — commit throughput, active days, top repositories, and recent pushes" width="100%" />
 
 </div>
 
-<!-- 404s until .github/workflows/snake.yml runs once. Push it, then trigger it from the Actions tab. -->
+<!-- Rendered from the GitHub events API by scripts/dashboard.py, refreshed daily
+     by .github/workflows/dashboard.yml. Self-hosted — no third-party services. -->
 
 <!-- ─────────────────────────────────────────────────────────────
      OPTIONAL: stats cards from community services on Vercel.
